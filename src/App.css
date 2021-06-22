@@ -1,0 +1,48 @@
+/* Global styles */
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ED7117;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ED7117;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color: #242424;
+}
+
+.line::before {
+    content: "";
+    width: 75px;
+    height: 3px;
+    display: block;
+    margin: 0 auto;
+    background-color: #ED7117;
+}
+
+.my-container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
